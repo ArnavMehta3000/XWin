@@ -6,11 +6,11 @@
     <ClInclude Include="include\WindowClass.h" />
     <ClInclude Include="include\XWinException.h" />
     <ClInclude Include="include\GenericTaskQueue.h" />
-    <ClInclude Include="include\Window.h" />
+    <ClInclude Include="include\XWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\WindowClass.cpp" />
     <ClCompile Include="src\GenericTaskQueue.cpp" />
-    <ClCompile Include="src\Window.cpp" />
+    <ClCompile Include="src\XWindow.cpp" />
   </ItemGroup>
 </Project>

@@ -13,13 +13,13 @@
   <ItemGroup>
     <ClInclude Include="include\GenericTaskQueue.h" />
     <ClInclude Include="include\IWindow.h" />
-    <ClInclude Include="include\Window.h" />
+    <ClInclude Include="include\XWindow.h" />
     <ClInclude Include="include\WindowClass.h" />
     <ClInclude Include="include\XWinException.h" />
     <ClInclude Include="include\WindowsWrapper.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Window.cpp" />
+    <ClCompile Include="src\XWindow.cpp" />
     <ClCompile Include="src\GenericTaskQueue.cpp" />
     <ClCompile Include="src\WindowClass.cpp" />
   </ItemGroup>
