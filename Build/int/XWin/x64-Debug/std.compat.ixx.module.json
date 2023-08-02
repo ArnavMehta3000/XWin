@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "D:\\ARNAV\\DEV\\CPP\\XWin\\Build\\int\\XWin\\x64-Debug\\std.compat.ixx.obj",
+            "outputs": [
+                "D:\\ARNAV\\DEV\\CPP\\XWin\\Build\\x64-Debug\\XWin.pdb",
+                "D:\\ARNAV\\DEV\\CPP\\XWin\\Build\\int\\XWin\\x64-Debug\\",
+                "D:\\ARNAV\\DEV\\CPP\\XWin\\Build\\int\\XWin\\x64-Debug\\std.compat.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "std.compat",
+                    "source-path": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\modules\\std.compat.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "std"
+                }
+            ]
+        }
+    ]
+}

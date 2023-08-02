@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\WindowsWrapper.h" />
+    <ClInclude Include="include\IWindow.h" />
+    <ClInclude Include="include\WindowClass.h" />
+    <ClInclude Include="include\XWinException.h" />
+    <ClInclude Include="include\GenericTaskQueue.h" />
+    <ClInclude Include="include\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\WindowClass.cpp" />
+    <ClCompile Include="src\GenericTaskQueue.cpp" />
+    <ClCompile Include="src\Window.cpp" />
+  </ItemGroup>
+</Project>
