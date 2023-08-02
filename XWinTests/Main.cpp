@@ -1,4 +1,4 @@
-#include "../XWin/include/Window.h"
+#include "../XWin/include/XWindow.h"
 #include <format>
 #include <memory>
 #include <ranges>
