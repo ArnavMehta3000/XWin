@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XWin", "XWin\XWin.vcxproj", "{9E2B00A7-5BE5-4FD2-B388-3A38BC5BF20C}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XWinTests", "XWinTests\XWinTests.vcxproj", "{FBE061B5-805A-4E47-A4C4-6579B0D14EEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XWin", "XWin\XWin.vcxproj", "{9E2B00A7-5BE5-4FD2-B388-3A38BC5BF20C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
