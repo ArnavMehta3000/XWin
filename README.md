@@ -125,7 +125,7 @@ catch (const XWin::XWinException& e)
 
 # Roadmap
 
-[x] Basic window creation
-[x] Separate window message thread
-[ ] Hardware input polling (getting keyboard and mouse events from window)
-[ ] Additional helper functions for creating a window
+- [x] Basic window creation
+- [x] Separate window message thread
+- [ ] Hardware input polling (getting keyboard and mouse events from window)
+- [ ] Additional helper functions for creating a window
