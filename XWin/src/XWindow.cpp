@@ -86,13 +86,13 @@ namespace XWin
 		return m_closing;
 	}
 
-	std::future<void> XWindow::SetTitle(std::wstring title)
+	std::future<void> XWindow::SetTitle(const std::wstring& title)
 	{
 		return Dispatch_(
 			[=, this] ()
 			{
 				if (!SetWindowTextW(m_hWnd, title.c_str()))
-				OutputDebugStringA("Failed setting window title");
+					OutputDebugStringA("Failed setting window title");
 			});
 	}
 
