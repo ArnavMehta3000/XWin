@@ -36,7 +36,7 @@ int APIENTRY wWinMain(
 
 			for (auto& p : windowPtrs)
 			{
-				p->SetTitle(std::format(L"XWin Demo Window [{:*<{}}]", L'*', x + 1)).get();
+				p->SetTitle(std::format(L"XWin Demo Window [{:*<{}}]", L'*', x + 1));
 			}
 
 			x = (x + 1) % 20;

@@ -29,7 +29,7 @@ namespace XWin
 		virtual ~IWindow() = default;
 		virtual HWND GetHandle() const = 0;
 		virtual bool IsClosing() const = 0;
-		virtual std::future<void> SetTitle(std::wstring title) = 0;
+		virtual std::future<void> SetTitle(const std::wstring& title) = 0;
 	
 	protected:
 		virtual LRESULT WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) noexcept = 0;
