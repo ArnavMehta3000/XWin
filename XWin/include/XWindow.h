@@ -16,7 +16,7 @@ namespace XWin
 		~XWindow() override;
 		HWND GetHandle() const override;
 		bool IsClosing() const override;
-		std::future<void> SetTitle(std::wstring title) override;
+		std::future<void> SetTitle(const std::wstring& title) override;
 
 	private:
 		static constexpr unsigned int CustomTaskMessageId = WM_USER + 0;
