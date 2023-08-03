@@ -35,7 +35,9 @@ int APIENTRY wWinMain(
 			std::erase_if(windowPtrs, [](auto& p) {return p->IsClosing(); });
 
 			for (auto& p : windowPtrs)
-				p->SetTitle(std::format(L"XWin Demo Window [{:*<{}}]", L'*', x + 1));
+			{
+				p->SetTitle(std::format(L"XWin Demo Window [{:*<{}}]", L'*', x + 1)).get();
+			}
 
 			x = (x + 1) % 20;
 			std::this_thread::sleep_for(50ms);
