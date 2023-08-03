@@ -10,6 +10,8 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+    types:
+      - closed
 
 env:
   # Path to the solution file relative to the root of the project.
